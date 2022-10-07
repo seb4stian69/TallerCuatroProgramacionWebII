@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Styles/albumes.scss">
+        <title>Gestion de albumes</title>
+    </head>
+
+    <body>
+        
+        <h2>Gestion de albumes</h2>
+
+        <form method="POST">
+
+            <input type="number" name="albumID" id="albumID" placeholder="Id del album">
+            <input type="text" name="albumName" id="albumName" placeholder="Nombre del album">
+            <input type="date" name="dateReleased" id="dateReleased">
+            <select name="selectGenre" id="selectGenre"><option value="Metal">Metal</option></select>
+            <select name="selectArtist" id="selectArtist"><option value="Shakira">Shakira</option></select>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+
+        </form>
+
+        <br> <!-- quitar ahorita -->
+    
+        <table class="AlbumTable">
+
+            <thead>
+                <tr>
+                    <th>Id del album</th>
+                    <th>Nombre del album</th>
+                    <th>Fecha de creacion</th>
+                    <th>Genero</th>
+                    <th>Artista</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </body>
+
+</html>
